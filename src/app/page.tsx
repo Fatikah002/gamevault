@@ -34,7 +34,6 @@ export default function HomePage() {
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-8">
-                  <p className="text-violet-400 mb-2">Featured Game</p>
                   <h2 className="text-5xl font-bold mb-4">{game.title}</h2>
                   <p className="text-slate-300 mb-6 max-w-2xl">
                     {game.description}
@@ -61,6 +60,7 @@ export default function HomePage() {
               genres={game.genres}
               platforms={game.platforms}
               rating={game.rating}
+              price={game.price}
             />
           ))}
         </div>
