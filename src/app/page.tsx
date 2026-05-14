@@ -55,6 +55,7 @@ export default function HomePage() {
           {games.map((game) => (
             <GameCard
               key={game.id}
+              slug={game.slug}
               title={game.title}
               image={game.coverImage}
               genres={game.genres}

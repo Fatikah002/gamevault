@@ -1,6 +1,7 @@
 import Image from "next/image";
-
+import Link from "next/link";
 type GameCardProps = {
+    slug: string;
     title: string;
     image: string;
     genres: string[];
@@ -9,7 +10,7 @@ type GameCardProps = {
     price: number;
 }
 
-export default function GameCard({ title, image, genres, platforms, rating, price }: GameCardProps) {
+export default function GameCard({ slug, title, image, genres, platforms, rating, price }: GameCardProps) {
     const formattedPrice = new Intl.NumberFormat("id-ID", {
         style: "currency",
         currency: "IDR",
@@ -17,11 +18,12 @@ export default function GameCard({ title, image, genres, platforms, rating, pric
     }).format(price);
 
     return (
-        <div className="bg-slate-800 rounded-2xl overflow-hidden hover:scale-105 transition">
-            {/* Game Image */}
-            <div className="relative w-full h-56">
-                <Image src={image} alt={title} fill className="object-cover"/>
-            </div>
+        <Link href={`/games/${slug}`}>
+            <div className="bg-slate-800 rounded-2xl overflow-hidden hover:scale-105 transition">
+                {/* Game Image */}
+                <div className="relative w-full h-56">
+                    <Image src={image} alt={title} fill className="object-cover"/>
+                </div>
 
             {/* content */}
             <div className="p-4">
@@ -42,5 +44,6 @@ export default function GameCard({ title, image, genres, platforms, rating, pric
                 </p>
             </div>
         </div>
+    </Link> 
     );
 }

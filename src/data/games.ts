@@ -11,7 +11,7 @@ export const games = [
         ],
         description: "Explore a futuristic open-world cyber city.",
         longDescription:
-            "Cyber Odyssey is an immersive RPG experience set in a futuristic city. Players can explore massive environments and battle powerful enemies.",
+            "Cyber Odyssey is an immersive RPG experience set in a futuristic city. Players can explore massive environments, uncover hidden districts, and battle powerful enemies while shaping their own path through a neon-lit world.",
         genres: ["RPG", "Open World"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Nova Interactive",
@@ -34,7 +34,7 @@ export const games = [
         ],
         description: "Fight powerful enemies in a fantasy world.",
         longDescription:
-            "Shadow Arena combines fast action combat with dark fantasy storytelling and online multiplayer battles.",
+            "Shadow Arena combines fast action combat with dark fantasy storytelling and online multiplayer battles. Every encounter pushes players to master timing, positioning, and aggressive tactics in intense arena clashes.",
         genres: ["Action", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "DarkMoon Studio",
@@ -57,7 +57,7 @@ export const games = [
         ],
         description: "Retro arcade racing game.",
         longDescription:
-            "Pixel Racers brings nostalgic arcade racing gameplay with modern multiplayer competition.",
+            "Pixel Racers brings nostalgic arcade racing gameplay with modern multiplayer competition. Bright tracks, responsive controls, and high-speed rivalries make every race feel fast, energetic, and replayable.",
         genres: ["Racing", "Arcade"],
         platforms: ["PC", "Nintendo Switch"],
         developer: "Retrobyte",
@@ -80,7 +80,7 @@ export const games = [
         ],
         description: "Survive endless zombie attacks.",
         longDescription:
-            "Zombie Escape is a survival horror game focused on teamwork, strategy, and resource management.",
+            "Zombie Escape is a survival horror game focused on teamwork, strategy, and resource management. Players must scavenge supplies, fortify safe zones, and survive relentless waves of undead threats.",
         genres: ["Horror", "Survival"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Nightmare Games",
@@ -103,7 +103,7 @@ export const games = [
         ],
         description: "Battle across the galaxy in epic space wars.",
         longDescription:
-            "Galaxy Raiders lets players command advanced spaceships and conquer enemy planets.",
+            "Galaxy Raiders lets players command advanced spaceships and conquer enemy planets. The campaign blends large-scale space battles, fleet customization, and planetary assaults across hostile star systems.",
         genres: ["Sci-Fi", "Action"],
         platforms: ["PC"],
         developer: "StarForge",
@@ -126,7 +126,7 @@ export const games = [
         ],
         description: "Magical adventure in a mysterious valley.",
         longDescription:
-            "Mystic Valley combines puzzle-solving and fantasy exploration in a magical world.",
+            "Mystic Valley combines puzzle-solving and fantasy exploration in a magical world. Hidden shrines, enchanted forests, and clever environmental challenges keep the journey calm but engaging.",
         genres: ["Adventure", "Fantasy"],
         platforms: ["PC", "Switch"],
         developer: "DreamSoft",
@@ -149,7 +149,7 @@ export const games = [
         ],
         description: "Fast-paced multiplayer fighting game.",
         longDescription:
-            "Street Warriors features intense combat, online ranking systems, and tournament modes.",
+            "Street Warriors features intense combat, online ranking systems, and tournament modes. Players can refine combos, climb competitive ladders, and prove their skills in fast, chaotic matches.",
         genres: ["Fighting", "Multiplayer"],
         platforms: ["PC", "PS5"],
         developer: "Combat Arts",
@@ -172,7 +172,7 @@ export const games = [
         ],
         description: "Dive deep into underwater adventures.",
         longDescription:
-            "Ocean Explorer allows players to discover marine life and hidden underwater mysteries.",
+            "Ocean Explorer allows players to discover marine life and hidden underwater mysteries. Calm exploration, bright ocean visuals, and secret locations make every dive feel relaxing yet rewarding.",
         genres: ["Adventure", "Simulation"],
         platforms: ["PC"],
         developer: "BlueSea Studio",
@@ -195,7 +195,7 @@ export const games = [
         ],
         description: "Lead armies and conquer kingdoms.",
         longDescription:
-            "Battle Kingdom is a strategy game focused on empire building and tactical warfare.",
+            "Battle Kingdom is a strategy game focused on empire building and tactical warfare. Build defenses, command armies, and outsmart rival rulers as your kingdom expands across the map.",
         genres: ["Strategy"],
         platforms: ["PC"],
         developer: "KingForge",
@@ -218,7 +218,7 @@ export const games = [
         ],
         description: "High-speed neon racing experience.",
         longDescription:
-            "Neon Drift combines futuristic visuals with fast-paced arcade racing gameplay.",
+            "Neon Drift combines futuristic visuals with fast-paced arcade racing gameplay. Glowing city circuits, tight drifting mechanics, and thrilling night races create a stylish arcade challenge.",
         genres: ["Racing"],
         platforms: ["PC", "PS5"],
         developer: "Velocity Studio",
@@ -241,7 +241,7 @@ export const games = [
         ],
         description: "Journey through forgotten kingdoms.",
         longDescription:
-            "Ancient Legends offers a massive fantasy adventure filled with exploration and mythical creatures.",
+            "Ancient Legends offers a massive fantasy adventure filled with exploration and mythical creatures. Ancient ruins, hidden relics, and dangerous beasts create a classic journey worth taking slowly.",
         genres: ["RPG", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "Legendary Studio",
@@ -264,7 +264,7 @@ export const games = [
         ],
         description: "Explore floating islands in the sky.",
         longDescription:
-            "Sky Frontier features airship combat, exploration, and co-op adventures.",
+            "Sky Frontier features airship combat, exploration, and co-op adventures. Travel between floating islands, upgrade your ship, and discover secrets hidden among the clouds.",
         genres: ["Adventure", "Open World"],
         platforms: ["PC", "Xbox"],
         developer: "CloudNine",
@@ -287,7 +287,7 @@ export const games = [
         ],
         description: "Fight monsters in dangerous dungeons.",
         longDescription:
-            "Dungeon Hunter delivers classic dungeon crawling with modern combat mechanics.",
+            "Dungeon Hunter delivers classic dungeon crawling with modern combat mechanics. Each dungeon is filled with traps, loot, and tough enemies that reward careful planning and aggressive play.",
         genres: ["RPG", "Action"],
         platforms: ["PC"],
         developer: "Iron Sword",
@@ -310,7 +310,7 @@ export const games = [
         ],
         description: "Pilot giant robots in futuristic battles.",
         longDescription:
-            "Mecha Strike combines tactical mech combat with cinematic storytelling.",
+            "Mecha Strike combines tactical mech combat with cinematic storytelling. Customize your machine, manage heavy weapon systems, and dominate battlefields with explosive precision.",
         genres: ["Sci-Fi", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Titan Forge",
@@ -333,7 +333,7 @@ export const games = [
         ],
         description: "Survive alone in the wild forest.",
         longDescription:
-            "Forest Survival challenges players to craft tools, hunt food, and survive dangerous wildlife.",
+            "Forest Survival challenges players to craft tools, hunt food, and survive dangerous wildlife. Dynamic weather, resource gathering, and constant danger turn the wilderness into a true test of endurance.",
         genres: ["Survival"],
         platforms: ["PC"],
         developer: "Nature Games",
@@ -356,7 +356,7 @@ export const games = [
         ],
         description: "Competitive street racing action.",
         longDescription:
-            "Speed Rivals delivers realistic racing physics and online competitive gameplay.",
+            "Speed Rivals delivers realistic racing physics and online competitive gameplay. Every race rewards clean driving, sharp braking, and risky overtakes against skilled opponents.",
         genres: ["Racing"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Velocity Games",
@@ -379,7 +379,7 @@ export const games = [
         ],
         description: "Learn powerful magic spells.",
         longDescription:
-            "Magic Academy lets players become powerful wizards and explore magical worlds.",
+            "Magic Academy lets players become powerful wizards and explore magical worlds. Attend classes, unlock new spells, and uncover hidden magical secrets as your abilities grow.",
         genres: ["Fantasy", "Adventure"],
         platforms: ["PC", "Switch"],
         developer: "Arcane Studio",
@@ -402,7 +402,7 @@ export const games = [
         ],
         description: "Tactical online military shooter.",
         longDescription:
-            "Warzone Elite focuses on realistic military combat and team strategy.",
+            "Warzone Elite focuses on realistic military combat and team strategy. Squad coordination, objective control, and precision shooting are all essential for victory on the battlefield.",
         genres: ["Shooter", "Multiplayer"],
         platforms: ["PC", "PS5"],
         developer: "BattleCore",
@@ -425,7 +425,7 @@ export const games = [
         ],
         description: "Build your dream island paradise.",
         longDescription:
-            "Island Builder combines creativity, farming, and relaxing gameplay.",
+            "Island Builder combines creativity, farming, and relaxing gameplay. Shape the island at your own pace, manage resources, and create a peaceful paradise filled with custom details.",
         genres: ["Simulation"],
         platforms: ["PC", "Switch"],
         developer: "Relax Studio",
@@ -448,7 +448,7 @@ export const games = [
         ],
         description: "Epic battles against ancient dragons.",
         longDescription:
-            "Dragon Souls is a hardcore fantasy RPG with intense boss battles.",
+            "Dragon Souls is a hardcore fantasy RPG with intense boss battles. Master timing, learn enemy patterns, and survive brutal encounters in a world ruled by ancient dragons.",
         genres: ["RPG", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "SoulForge",
@@ -471,7 +471,7 @@ export const games = [
         ],
         description: "Escape from the police in thrilling night races.",
         longDescription:
-            "Night Pursuit delivers high-speed racing gameplay with cinematic police chases and customization.",
+            "Night Pursuit delivers high-speed racing gameplay with cinematic police chases and customization. Tune your ride, outrun the law, and chase the thrill of midnight street racing.",
         genres: ["Racing", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Street Velocity",
@@ -494,7 +494,7 @@ export const games = [
         ],
         description: "Survive the frozen lands and uncover hidden secrets.",
         longDescription:
-            "Frozen Kingdom offers exploration, survival, and magical combat in icy environments.",
+            "Frozen Kingdom offers exploration, survival, and magical combat in icy environments. Harsh blizzards, frozen ruins, and dangerous wildlife make every step through the kingdom feel tense and memorable.",
         genres: ["Adventure", "Survival"],
         platforms: ["PC", "Xbox"],
         developer: "IceWind Studio",
@@ -517,7 +517,7 @@ export const games = [
         ],
         description: "Defend Earth from alien invasions.",
         longDescription:
-            "Alien Protocol is a sci-fi shooter featuring futuristic weapons and co-op missions.",
+            "Alien Protocol is a sci-fi shooter featuring futuristic weapons and co-op missions. Coordinate with allies, master advanced gear, and repel alien threats across high-tech warzones.",
         genres: ["Shooter", "Sci-Fi"],
         platforms: ["PC", "PS5"],
         developer: "FutureTech",
@@ -540,7 +540,7 @@ export const games = [
         ],
         description: "Master the way of the samurai.",
         longDescription:
-            "Samurai Legacy combines stealth combat, sword fighting, and emotional storytelling.",
+            "Samurai Legacy combines stealth combat, sword fighting, and emotional storytelling. Balance honor and survival as you move through feudal landscapes filled with danger and betrayal.",
         genres: ["Action", "Adventure"],
         platforms: ["PC", "PS5"],
         developer: "Ronin Studio",
@@ -563,7 +563,7 @@ export const games = [
         ],
         description: "Build and manage modern cities.",
         longDescription:
-            "City Architect allows players to create advanced cities with realistic management systems.",
+            "City Architect allows players to create advanced cities with realistic management systems. Plan roads, balance budgets, and keep citizens happy while your city expands in every direction.",
         genres: ["Simulation", "Strategy"],
         platforms: ["PC"],
         developer: "Urban Forge",
@@ -586,7 +586,7 @@ export const games = [
         ],
         description: "Fight against a deadly virus outbreak.",
         longDescription:
-            "Deadly Infection is a horror survival game with tense gameplay and terrifying creatures.",
+            "Deadly Infection is a horror survival game with tense gameplay and terrifying creatures. Limited resources, dark environments, and unpredictable enemies make survival feel constantly uncertain.",
         genres: ["Horror", "Survival"],
         platforms: ["PC", "Xbox"],
         developer: "Dark Labs",
@@ -609,7 +609,7 @@ export const games = [
         ],
         description: "Lead heroes into tactical battles.",
         longDescription:
-            "Fantasy Tactics focuses on strategic turn-based combat and kingdom management.",
+            "Fantasy Tactics focuses on strategic turn-based combat and kingdom management. Build strong formations, manage your army wisely, and outmaneuver powerful enemies on every map.",
         genres: ["Strategy", "Fantasy"],
         platforms: ["PC", "Switch"],
         developer: "Kingdom Forge",
@@ -632,7 +632,7 @@ export const games = [
         ],
         description: "Explore galaxies beyond imagination.",
         longDescription:
-            "Space Horizon offers open-world space exploration and intergalactic missions.",
+            "Space Horizon offers open-world space exploration and intergalactic missions. Travel between planets, upgrade your ship, and uncover mysteries scattered across distant star systems.",
         genres: ["Sci-Fi", "Open World"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Cosmos Studio",
@@ -655,7 +655,7 @@ export const games = [
         ],
         description: "Compete in online arena battles.",
         longDescription:
-            "Arena Champions is a competitive multiplayer game with ranked PvP gameplay.",
+            "Arena Champions is a competitive multiplayer game with ranked PvP gameplay. Every match demands strong reflexes, smart positioning, and a willingness to adapt under pressure.",
         genres: ["Multiplayer", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Champion Studio",
@@ -678,7 +678,7 @@ export const games = [
         ],
         description: "Discover ruins of an ancient civilization.",
         longDescription:
-            "Lost Civilization combines exploration, puzzles, and adventure storytelling in mysterious ruins.",
+            "Lost Civilization combines exploration, puzzles, and adventure storytelling in mysterious ruins. Decoding ancient mechanisms and surviving hidden traps are key to uncovering the truth behind the lost world.",
         genres: ["Adventure", "Puzzle"],
         platforms: ["PC", "Switch"],
         developer: "Mystery Forge",

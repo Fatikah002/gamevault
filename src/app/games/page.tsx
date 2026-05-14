@@ -233,6 +233,7 @@ export default function GamesPage() {
               {currentGames.map((game) => (
                 <GameCard
                   key={game.id}
+                  slug={game.slug}
                   title={game.title}
                   image={game.coverImage}
                   genres={game.genres}
