@@ -70,7 +70,7 @@ export default function WishlistPage() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-10">
+    <div className="mx-auto max-w-7xl px-6 ">
       <h1 className="mb-6 text-3xl font-bold">My Wishlist</h1>
 
       {wishlistGames.length === 0 ? (
