@@ -7,6 +7,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from "next/link";
 
 export default function HomePage() {
   // featured game
@@ -38,9 +39,12 @@ export default function HomePage() {
                   <p className="text-slate-300 mb-6 max-w-2xl">
                     {game.description}
                   </p>
-                  <button className="bg-violet-500 hover:bg-violet-600 px-6 py-3 rounded-xl w-fit font-semibold transition">
+                  <Link
+                    href={`/games/${game.slug}`}
+                    className="inline-flex w-fit self-start rounded-xl bg-violet-500 px-6 py-3 font-semibold hover:bg-violet-600"
+                  >
                     Explore Game
-                  </button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
