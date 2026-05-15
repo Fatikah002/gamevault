@@ -55,7 +55,7 @@ export default function WishlistPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
-      <h1 className="mb-6 text-4xl font-bold">My Wishlist</h1>
+      <h1 className="mb-6 text-3xl font-bold">My Wishlist</h1>
 
       {wishlistGames.length === 0 ? (
         <div className="rounded-2xl border border-slate-800 bg-slate-900 p-10 text-center flex flex-col items-center gap-4">
@@ -70,7 +70,7 @@ export default function WishlistPage() {
           </Link>
         </div>
       ) : (
-        <div className="grid gap-8 sm:grid-cols2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols2 lg:grid-cols-3 gap-6">
           {wishlistGames.map((game) => (
             <div
               key={game.slug}

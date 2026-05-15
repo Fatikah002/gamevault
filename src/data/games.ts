@@ -11,7 +11,7 @@ export const games = [
         ],
         description: "Explore a futuristic open-world cyber city.",
         longDescription:
-            "Cyber Odyssey is an immersive RPG experience set in a futuristic city. Players can explore massive environments, uncover hidden districts, and battle powerful enemies while shaping their own path through a neon-lit world.",
+            "Cyber Odyssey is an immersive RPG set in a neon city that never sleeps. Each district has its own factions, rules, and secrets to uncover as you carve your identity. The world reacts to your choices with shifting alliances and consequences.\n\nCombat blends tactical abilities with fast movement across rooftops and alleyways. Augments change how you fight, explore, and solve problems in missions. Exploration rewards curiosity with hidden hubs, side stories, and rare tech.\n\nThe story follows a rising fixer pulled into a corporate conspiracy. Your decisions steer the city toward rebellion, order, or uneasy balance. Every chapter adds depth to the people and places you meet.",
         genres: ["RPG", "Open World"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Nova Interactive",
@@ -34,7 +34,7 @@ export const games = [
         ],
         description: "Fight powerful enemies in a fantasy world.",
         longDescription:
-            "Shadow Arena combines fast action combat with dark fantasy storytelling and online multiplayer battles. Every encounter pushes players to master timing, positioning, and aggressive tactics in intense arena clashes.",
+            "Shadow Arena drops you into a dark realm where champions are forged in brutal trials. The narrative frames each arena as a cursed battlefield with its own lore. Progress reveals the hidden story behind the realm and its rulers.\n\nCombat focuses on precision, timing, and reading your opponent. Each class has distinct stances, counters, and finishers. Mastery comes from adapting to new enemy patterns and arena hazards.\n\nMultiplayer brings ranked duels and team skirmishes with seasonal rewards. Climbing the ladder unlocks cosmetics, relics, and special arenas. The competitive loop stays fresh with rotating modifiers and events.",
         genres: ["Action", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "DarkMoon Studio",
@@ -57,7 +57,7 @@ export const games = [
         ],
         description: "Retro arcade racing game.",
         longDescription:
-            "Pixel Racers brings nostalgic arcade racing gameplay with modern multiplayer competition. Bright tracks, responsive controls, and high-speed rivalries make every race feel fast, energetic, and replayable.",
+            "Pixel Racers celebrates classic arcade speed with crisp, modern controls. The visual style blends neon pixels, chunky sprites, and bold track design. Every circuit is built for quick races and instant fun.\n\nHandling is simple to learn but rewards precise drifts and clean lines. Boost pads, shortcuts, and powerups keep each lap exciting. Time trials challenge you to shave milliseconds with perfect routes.\n\nMultiplayer features short, energetic races and rotating event cups. Seasonal themes add new tracks and skins without bloating the game. It is designed for quick sessions and high replay value.",
         genres: ["Racing", "Arcade"],
         platforms: ["PC", "Nintendo Switch"],
         developer: "Retrobyte",
@@ -80,7 +80,7 @@ export const games = [
         ],
         description: "Survive endless zombie attacks.",
         longDescription:
-            "Zombie Escape is a survival horror game focused on teamwork, strategy, and resource management. Players must scavenge supplies, fortify safe zones, and survive relentless waves of undead threats.",
+            "Zombie Escape is a survival horror experience set in a collapsing quarantine zone. The campaign follows a small group fighting to reach a rumored safe harbor. Each chapter reveals the downfall of the city and its people.\n\nGameplay centers on scavenging, base defense, and hard choices. Supplies are scarce, so every decision matters in a crisis. Fortify safe rooms, plan escape routes, and manage limited ammunition.\n\nCo-op mode rewards communication and roles like scout, medic, and engineer. Night cycles increase danger and change enemy behavior. Surviving longer unlocks new tools and story logs.",
         genres: ["Horror", "Survival"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Nightmare Games",
@@ -103,7 +103,7 @@ export const games = [
         ],
         description: "Battle across the galaxy in epic space wars.",
         longDescription:
-            "Galaxy Raiders lets players command advanced spaceships and conquer enemy planets. The campaign blends large-scale space battles, fleet customization, and planetary assaults across hostile star systems.",
+            "Galaxy Raiders is a space warfare adventure spanning a contested galaxy. You lead a rebel fleet fighting against a dominant empire. Each system has unique enemies, hazards, and political stakes.\n\nFleet combat is tactical, with ship roles and formation bonuses. Customize loadouts to counter enemy tactics and environmental threats. Boarding actions and orbital strikes add variety to each mission.\n\nPlanetary assaults let you secure resources and expand your influence. Strategic choices shape which factions support your cause. The campaign balances story moments with large scale battles.",
         genres: ["Sci-Fi", "Action"],
         platforms: ["PC"],
         developer: "StarForge",
@@ -126,7 +126,7 @@ export const games = [
         ],
         description: "Magical adventure in a mysterious valley.",
         longDescription:
-            "Mystic Valley combines puzzle-solving and fantasy exploration in a magical world. Hidden shrines, enchanted forests, and clever environmental challenges keep the journey calm but engaging.",
+            "Mystic Valley is a gentle fantasy adventure set in an enchanted wilderness. The valley is filled with shrines, hidden trails, and quiet mysteries. You play a wanderer seeking the source of a fading magic.\n\nPuzzles rely on observation, light, and natural elements. Each region introduces a new mechanic tied to the environment. Exploration rewards you with artifacts, lore, and peaceful vistas.\n\nThe story unfolds through encounters with spirits and valley guardians. Choices are subtle but meaningful, shaping how the world responds. The journey is calm, curious, and reflective.",
         genres: ["Adventure", "Fantasy"],
         platforms: ["PC", "Switch"],
         developer: "DreamSoft",
@@ -149,7 +149,7 @@ export const games = [
         ],
         description: "Fast-paced multiplayer fighting game.",
         longDescription:
-            "Street Warriors features intense combat, online ranking systems, and tournament modes. Players can refine combos, climb competitive ladders, and prove their skills in fast, chaotic matches.",
+            "Street Warriors is a high energy fighter inspired by classic arcade brawlers. Each character has a distinct style, speed, and combo rhythm. The roster spans disciplined martial artists to wild street brawlers.\n\nCombat rewards sharp timing, spacing, and creative combos. Training mode teaches advanced cancels and counter play. Stages feature interactive hazards that keep matches dynamic.\n\nOnline play includes ranked seasons, tournaments, and casual lounges. Skill based matchmaking helps beginners learn without frustration. Rewards focus on cosmetics and showcase player achievements.",
         genres: ["Fighting", "Multiplayer"],
         platforms: ["PC", "PS5"],
         developer: "Combat Arts",
@@ -172,7 +172,7 @@ export const games = [
         ],
         description: "Dive deep into underwater adventures.",
         longDescription:
-            "Ocean Explorer allows players to discover marine life and hidden underwater mysteries. Calm exploration, bright ocean visuals, and secret locations make every dive feel relaxing yet rewarding.",
+            "Ocean Explorer invites you to explore vibrant reefs and mysterious trenches. The world is built for calm discovery and visual wonder. Each region features unique species and environmental stories.\n\nDiving mechanics focus on oxygen management and navigation tools. You scan wildlife, collect samples, and photograph rare creatures. Hidden caves and shipwrecks reward careful exploration.\n\nThe narrative follows a research team seeking a lost expedition. Audio logs reveal the ocean history and its secrets. The experience is tranquil, curious, and immersive.",
         genres: ["Adventure", "Simulation"],
         platforms: ["PC"],
         developer: "BlueSea Studio",
@@ -195,7 +195,7 @@ export const games = [
         ],
         description: "Lead armies and conquer kingdoms.",
         longDescription:
-            "Battle Kingdom is a strategy game focused on empire building and tactical warfare. Build defenses, command armies, and outsmart rival rulers as your kingdom expands across the map.",
+            "Battle Kingdom is a grand strategy game about leadership and conquest. You begin with a small realm and expand through diplomacy or war. Each neighboring kingdom has strengths and rivalries to exploit.\n\nArmy management emphasizes formations, terrain, and supply lines. Battles play out in tactical phases where positioning matters. Upgrades improve siege tools, cavalry, and defensive tactics.\n\nA dynamic campaign system responds to your decisions. Alliances shift, rebellions rise, and resources fluctuate. Victory demands both strategic planning and tactical execution.",
         genres: ["Strategy"],
         platforms: ["PC"],
         developer: "KingForge",
@@ -218,7 +218,7 @@ export const games = [
         ],
         description: "High-speed neon racing experience.",
         longDescription:
-            "Neon Drift combines futuristic visuals with fast-paced arcade racing gameplay. Glowing city circuits, tight drifting mechanics, and thrilling night races create a stylish arcade challenge.",
+            "Neon Drift is an arcade racer set in a glowing future city. Tracks weave through skyline highways and subterranean tunnels. The visual style is bold, bright, and built for speed.\n\nDrifting is the core of the experience, chaining boosts with perfect timing. Risky corners reward skill with extra speed and style points. Each vehicle has unique handling and upgrade paths.\n\nCareer mode follows a rising racer in an underground circuit. Rivalries and sponsor challenges shape the season. Multiplayer adds quick playlists and night race events.",
         genres: ["Racing"],
         platforms: ["PC", "PS5"],
         developer: "Velocity Studio",
@@ -241,7 +241,7 @@ export const games = [
         ],
         description: "Journey through forgotten kingdoms.",
         longDescription:
-            "Ancient Legends offers a massive fantasy adventure filled with exploration and mythical creatures. Ancient ruins, hidden relics, and dangerous beasts create a classic journey worth taking slowly.",
+            "Ancient Legends is a sprawling fantasy adventure across ruined kingdoms. You travel through deserts, forests, and crumbling citadels. The world is layered with myths and lost history.\n\nExploration mixes combat, puzzles, and relic hunting. Each region introduces new enemies and magical tools. The game rewards patience with hidden shrines and legendary gear.\n\nThe story follows a hero seeking to restore balance to a broken realm. Companions join along the way, adding side quests and choices. The journey is grand, classic, and rich in lore.",
         genres: ["RPG", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "Legendary Studio",
@@ -264,7 +264,7 @@ export const games = [
         ],
         description: "Explore floating islands in the sky.",
         longDescription:
-            "Sky Frontier features airship combat, exploration, and co-op adventures. Travel between floating islands, upgrade your ship, and discover secrets hidden among the clouds.",
+            "Sky Frontier is an adventure across floating islands and endless skies. You captain an airship in search of lost technology. Each island has its own culture, weather, and dangers.\n\nAirship combat combines maneuvering, timing, and crew coordination. Upgrade engines, weapons, and hulls to survive fierce skirmishes. Exploration reveals secret ruins and rare resources.\n\nCo-op missions let friends crew the ship together. Story chapters introduce new regions and sky pirates. The tone blends wonder with high stakes exploration.",
         genres: ["Adventure", "Open World"],
         platforms: ["PC", "Xbox"],
         developer: "CloudNine",
@@ -287,7 +287,7 @@ export const games = [
         ],
         description: "Fight monsters in dangerous dungeons.",
         longDescription:
-            "Dungeon Hunter delivers classic dungeon crawling with modern combat mechanics. Each dungeon is filled with traps, loot, and tough enemies that reward careful planning and aggressive play.",
+            "Dungeon Hunter is a modern take on classic dungeon crawling. You explore ancient tunnels packed with traps and monsters. Each dungeon is handcrafted with unique mechanics and secrets.\n\nCombat mixes quick strikes, dodges, and skill combos. Loot drives progression, with rare gear hidden behind tough challenges. Party builds encourage experimentation and synergy.\n\nThe story follows a relic hunter drawn into a cursed labyrinth. Choices influence which factions support your quest. The journey rewards careful planning and bold risk taking.",
         genres: ["RPG", "Action"],
         platforms: ["PC"],
         developer: "Iron Sword",
@@ -310,7 +310,7 @@ export const games = [
         ],
         description: "Pilot giant robots in futuristic battles.",
         longDescription:
-            "Mecha Strike combines tactical mech combat with cinematic storytelling. Customize your machine, manage heavy weapon systems, and dominate battlefields with explosive precision.",
+            "Mecha Strike is a tactical action game focused on colossal machines. You pilot a customized mech in a futuristic war zone. The setting blends industrial ruins with high tech bases.\n\nCombat emphasizes positioning, heat management, and coordinated strikes. Heavy weapons feel powerful but require planning to use safely. Each chassis supports different roles from sniper to brawler.\n\nThe story follows an elite squad fighting to end a corporate conflict. Mission choices unlock alternate routes and allies. The campaign balances cinematic moments with strategic depth.",
         genres: ["Sci-Fi", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Titan Forge",
@@ -333,7 +333,7 @@ export const games = [
         ],
         description: "Survive alone in the wild forest.",
         longDescription:
-            "Forest Survival challenges players to craft tools, hunt food, and survive dangerous wildlife. Dynamic weather, resource gathering, and constant danger turn the wilderness into a true test of endurance.",
+            "Forest Survival is a solitary struggle against an unforgiving wilderness. You awaken deep in the forest with minimal supplies. The environment is beautiful but harsh, with shifting weather.\n\nGameplay centers on crafting, hunting, and shelter building. Tools degrade, forcing you to plan your resource loops. Wildlife is unpredictable, so scouting and traps are essential.\n\nA light narrative emerges through journals and abandoned camps. Your choices decide whether to push forward or build a long term refuge. The experience is tense, slow, and immersive.",
         genres: ["Survival"],
         platforms: ["PC"],
         developer: "Nature Games",
@@ -356,7 +356,7 @@ export const games = [
         ],
         description: "Competitive street racing action.",
         longDescription:
-            "Speed Rivals delivers realistic racing physics and online competitive gameplay. Every race rewards clean driving, sharp braking, and risky overtakes against skilled opponents.",
+            "Speed Rivals blends realistic handling with the thrill of illegal street races. Tracks are grounded in real world inspired city layouts. Each race tests reflexes and careful control.\n\nTuning matters, with options for suspension, gearing, and tires. Clean lines and late braking earn the best lap times. Aggressive rivals punish mistakes but open opportunities.\n\nOnline competitions feature ranked divisions and weekly challenges. Ghost races let you compare times with friends. The career mode builds a story around reputation and rival crews.",
         genres: ["Racing"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Velocity Games",
@@ -379,7 +379,7 @@ export const games = [
         ],
         description: "Learn powerful magic spells.",
         longDescription:
-            "Magic Academy lets players become powerful wizards and explore magical worlds. Attend classes, unlock new spells, and uncover hidden magical secrets as your abilities grow.",
+            "Magic Academy is a fantasy adventure about mastering spellcraft. You enroll in a hidden school that trains mages in secret. The campus hides libraries, dueling halls, and forbidden wings.\n\nClasses teach spell combinations, elemental control, and ritual crafting. Combat blends tactical casting with supportive enchantments. Exploration reveals puzzles that require clever spell usage.\n\nThe story follows a student uncovering a dangerous legacy. Friendships and rivalries shape your path through the academy. Each term raises the stakes and deepens your powers.",
         genres: ["Fantasy", "Adventure"],
         platforms: ["PC", "Switch"],
         developer: "Arcane Studio",
@@ -402,7 +402,7 @@ export const games = [
         ],
         description: "Tactical online military shooter.",
         longDescription:
-            "Warzone Elite focuses on realistic military combat and team strategy. Squad coordination, objective control, and precision shooting are all essential for victory on the battlefield.",
+            "Warzone Elite is a tactical shooter built around teamwork and coordination. You join a special unit tasked with high risk operations. Each map is designed for methodical pushes and flanks.\n\nGunplay rewards precision, recoil control, and smart positioning. Loadouts are flexible, with tools for breaching and reconnaissance. Objectives demand clear roles and communication.\n\nCompetitive modes include ranked ladders and seasonal operations. Progress unlocks cosmetics and utility gear without pay to win. The tone is grounded and focused on squad play.",
         genres: ["Shooter", "Multiplayer"],
         platforms: ["PC", "PS5"],
         developer: "BattleCore",
@@ -425,7 +425,7 @@ export const games = [
         ],
         description: "Build your dream island paradise.",
         longDescription:
-            "Island Builder combines creativity, farming, and relaxing gameplay. Shape the island at your own pace, manage resources, and create a peaceful paradise filled with custom details.",
+            "Island Builder is a relaxing simulation about shaping a tropical paradise. You start with a small island and a few basic tools. Over time the island grows into a vibrant community.\n\nGameplay mixes farming, crafting, and city planning. Place roads, decorate neighborhoods, and manage resources calmly. Seasonal events add new decor and activities.\n\nA light narrative introduces visitors with unique requests. Helping them unlocks rare items and cosmetic rewards. The experience stays calm, creative, and open ended.",
         genres: ["Simulation"],
         platforms: ["PC", "Switch"],
         developer: "Relax Studio",
@@ -448,7 +448,7 @@ export const games = [
         ],
         description: "Epic battles against ancient dragons.",
         longDescription:
-            "Dragon Souls is a hardcore fantasy RPG with intense boss battles. Master timing, learn enemy patterns, and survive brutal encounters in a world ruled by ancient dragons.",
+            "Dragon Souls is a hardcore fantasy RPG centered on dragon hunting. The world is bleak, with ruins shaped by ancient fire. Every region hints at the scale of the dragons power.\n\nCombat focuses on deliberate timing, stamina management, and pattern mastery. Each dragon is a multi phase boss with unique mechanics. Victory requires careful preparation and calm execution.\n\nThe story explores the cost of power and the fate of kingdoms. NPC quests reveal different philosophies about the dragons. Your choices shape the final confrontation.",
         genres: ["RPG", "Fantasy"],
         platforms: ["PC", "PS5"],
         developer: "SoulForge",
@@ -471,7 +471,7 @@ export const games = [
         ],
         description: "Escape from the police in thrilling night races.",
         longDescription:
-            "Night Pursuit delivers high-speed racing gameplay with cinematic police chases and customization. Tune your ride, outrun the law, and chase the thrill of midnight street racing.",
+            "Night Pursuit is a cinematic street racing game set after dark. The city comes alive with neon streets and heavy rain. Police pressure keeps every race tense and urgent.\n\nDriving blends arcade speed with sharp handling. Upgrades improve acceleration, grip, and pursuit tools. Risk and reward mechanics let you choose when to push your luck.\n\nCareer mode follows a crew building a reputation. Rival racers and law enforcement create constant tension. The story leans into drama without sacrificing gameplay flow.",
         genres: ["Racing", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Street Velocity",
@@ -494,7 +494,7 @@ export const games = [
         ],
         description: "Survive the frozen lands and uncover hidden secrets.",
         longDescription:
-            "Frozen Kingdom offers exploration, survival, and magical combat in icy environments. Harsh blizzards, frozen ruins, and dangerous wildlife make every step through the kingdom feel tense and memorable.",
+            "Frozen Kingdom is an adventure set in a brutal, icy realm. You trek across frozen plains, glaciers, and ruined forts. The landscape is beautiful but relentlessly dangerous.\n\nSurvival systems track warmth, stamina, and shelter. Magic based combat helps you fight beasts and hostile raiders. Blizzard events alter paths and visibility, forcing quick decisions.\n\nThe narrative uncovers a lost kingdom buried under ice. Ancient artifacts hint at a forgotten civilization. Your choices determine how its legacy is restored or buried.",
         genres: ["Adventure", "Survival"],
         platforms: ["PC", "Xbox"],
         developer: "IceWind Studio",
@@ -517,7 +517,7 @@ export const games = [
         ],
         description: "Defend Earth from alien invasions.",
         longDescription:
-            "Alien Protocol is a sci-fi shooter featuring futuristic weapons and co-op missions. Coordinate with allies, master advanced gear, and repel alien threats across high-tech warzones.",
+            "Alien Protocol is a sci-fi shooter about defending Earth from invasion. You join an elite task force with experimental gear. Missions span research labs, cities, and alien ships.\n\nCombat emphasizes coordinated tactics and smart use of gadgets. Weapons include energy rifles, drones, and deployable shields. Enemies adapt to your approach, keeping encounters dynamic.\n\nCo-op missions reward teamwork with combo abilities. The story reveals the origin of the invasion and hidden factions. Progression unlocks new tech and mission branches.",
         genres: ["Shooter", "Sci-Fi"],
         platforms: ["PC", "PS5"],
         developer: "FutureTech",
@@ -540,7 +540,7 @@ export const games = [
         ],
         description: "Master the way of the samurai.",
         longDescription:
-            "Samurai Legacy combines stealth combat, sword fighting, and emotional storytelling. Balance honor and survival as you move through feudal landscapes filled with danger and betrayal.",
+            "Samurai Legacy is a feudal action adventure about honor and survival. You travel across war torn provinces seeking to restore your clan. The world is grounded, atmospheric, and tense.\n\nSword combat favors timing, patience, and precise strikes. Stealth options allow quiet infiltration and ambushes. Duels test focus, with parry windows that reward mastery.\n\nThe story explores loyalty, betrayal, and personal sacrifice. Villages and allies reflect the consequences of your choices. The journey balances action with emotional weight.",
         genres: ["Action", "Adventure"],
         platforms: ["PC", "PS5"],
         developer: "Ronin Studio",
@@ -563,7 +563,7 @@ export const games = [
         ],
         description: "Build and manage modern cities.",
         longDescription:
-            "City Architect allows players to create advanced cities with realistic management systems. Plan roads, balance budgets, and keep citizens happy while your city expands in every direction.",
+            "City Architect is a modern city builder focused on planning and balance. You start with a small district and expand into a thriving metropolis. Every decision affects traffic, economy, and quality of life.\n\nManagement systems simulate budgets, zoning, and public services. Build transport networks, manage utilities, and respond to crises. Policies and upgrades shape how your city evolves.\n\nA campaign mode introduces challenges and unique city goals. Sandbox mode supports creativity without pressure. Progress feels steady, strategic, and satisfying.",
         genres: ["Simulation", "Strategy"],
         platforms: ["PC"],
         developer: "Urban Forge",
@@ -586,7 +586,7 @@ export const games = [
         ],
         description: "Fight against a deadly virus outbreak.",
         longDescription:
-            "Deadly Infection is a horror survival game with tense gameplay and terrifying creatures. Limited resources, dark environments, and unpredictable enemies make survival feel constantly uncertain.",
+            "Deadly Infection is a survival horror game set during a viral outbreak. You navigate a quarantined city filled with fear and chaos. The atmosphere is dark, tense, and oppressive.\n\nResource management is critical, with limited ammo and medical supplies. Enemies are unpredictable and react to sound and light. Stealth can be safer than direct combat.\n\nThe story follows a responder searching for a cure. Logs and encounters reveal how the outbreak began. Your choices shape who survives and what is lost.",
         genres: ["Horror", "Survival"],
         platforms: ["PC", "Xbox"],
         developer: "Dark Labs",
@@ -609,7 +609,7 @@ export const games = [
         ],
         description: "Lead heroes into tactical battles.",
         longDescription:
-            "Fantasy Tactics focuses on strategic turn-based combat and kingdom management. Build strong formations, manage your army wisely, and outmaneuver powerful enemies on every map.",
+            "Fantasy Tactics is a turn based strategy game with heroic battles. You lead a band of champions against invading forces. Each map emphasizes terrain, formation, and timing.\n\nCombat rewards careful planning and smart ability combos. Classes have distinct roles with synergy bonuses. Upgrades unlock new tactics and battlefield options.\n\nThe campaign ties battles to kingdom decisions. Alliances and resources affect which missions are available. The story blends political intrigue with classic fantasy stakes.",
         genres: ["Strategy", "Fantasy"],
         platforms: ["PC", "Switch"],
         developer: "Kingdom Forge",
@@ -632,7 +632,7 @@ export const games = [
         ],
         description: "Explore galaxies beyond imagination.",
         longDescription:
-            "Space Horizon offers open-world space exploration and intergalactic missions. Travel between planets, upgrade your ship, and uncover mysteries scattered across distant star systems.",
+            "Space Horizon is an open world space adventure about exploration and discovery. You pilot a customizable ship across star systems. Each planet has unique ecosystems and anomalies.\n\nGameplay mixes scanning, resource gathering, and ship upgrades. Dogfights and planetary missions add action to the journey. Navigation tools encourage long range planning and risk management.\n\nThe narrative follows a crew chasing a signal from deep space. Side missions reveal factions competing for control. The experience balances wonder with survival challenges.",
         genres: ["Sci-Fi", "Open World"],
         platforms: ["PC", "PS5", "Xbox"],
         developer: "Cosmos Studio",
@@ -655,7 +655,7 @@ export const games = [
         ],
         description: "Compete in online arena battles.",
         longDescription:
-            "Arena Champions is a competitive multiplayer game with ranked PvP gameplay. Every match demands strong reflexes, smart positioning, and a willingness to adapt under pressure.",
+            "Arena Champions is a competitive multiplayer title built for fast matches. You enter arenas with distinct hazards and layouts. The goal is to outplay opponents through skill and strategy.\n\nEach hero has unique abilities and a clear tactical role. Team synergy and positioning decide most fights. Progression focuses on cosmetics and skill based rank.\n\nSeasonal events introduce new modes and rotating maps. Spectator tools support tournaments and community play. The experience is focused, responsive, and fair.",
         genres: ["Multiplayer", "Action"],
         platforms: ["PC", "PS5"],
         developer: "Champion Studio",
@@ -678,7 +678,7 @@ export const games = [
         ],
         description: "Discover ruins of an ancient civilization.",
         longDescription:
-            "Lost Civilization combines exploration, puzzles, and adventure storytelling in mysterious ruins. Decoding ancient mechanisms and surviving hidden traps are key to uncovering the truth behind the lost world.",
+            "Lost Civilization is an adventure about uncovering ancient ruins. You explore temples, jungle corridors, and buried cities. The world is rich with environmental storytelling.\n\nPuzzles rely on patterns, light, and mechanical devices. Traps add tension and force careful observation. Exploration rewards players with relics and hidden passages.\n\nThe narrative follows a researcher searching for a vanished culture. Clues reveal the reasons behind its collapse. The journey balances curiosity with danger.",
         genres: ["Adventure", "Puzzle"],
         platforms: ["PC", "Switch"],
         developer: "Mystery Forge",
