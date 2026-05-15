@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
-import { use } from "react";
+import { useState, useSyncExternalStore, useEffect, use } from "react";
 import { games } from "@/data/games";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import Spinner from "@/components/spinner";
 
 const WISHLIST_EVENT = "wishlist-change";
 
@@ -52,15 +52,24 @@ type Props = {
 
 export default function GameDetailPage({ params }: Props) {
   const { slug } = use(params);
+  const [loading, setLoading] = useState(true);
 
   const game = games.find((g) => g.slug === slug);
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const wishlist = useSyncExternalStore(
     subscribeWishlist,
     getWishlistSnapshot,
-    () => serverSnapshot
+    () => serverSnapshot,
   );
 
   if (!game) return notFound();
@@ -76,9 +85,12 @@ export default function GameDetailPage({ params }: Props) {
     window.dispatchEvent(new Event(WISHLIST_EVENT));
   };
 
+  if (loading) {
+    return <Spinner />;
+  }
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 space-y-12">
-
       {/*  HEADER*/}
       <div className="grid gap-10 md:grid-cols-2">
         <Image

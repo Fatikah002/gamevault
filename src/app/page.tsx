@@ -8,10 +8,26 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import Spinner from "@/components/spinner";
 
 export default function HomePage() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []); 
+
+  if (loading) {
+    return <Spinner />;
+  }
+
   // featured game
   const featuredGames = games.filter((game) => game.featured === true);
+
   return (
     <div>
       {/* Featured Carousel */}

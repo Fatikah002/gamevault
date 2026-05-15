@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
 import GameCard from "@/components/GameCard";
 import { games } from "@/data/games";
+import Spinner from "@/components/spinner";
 
 const GENRE_OPTIONS = [
   "All",
@@ -58,6 +58,15 @@ function matchesYearRange(releaseDate: string, selectedYearRange: string) {
 }
 
 export default function GamesPage() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const gamesPerPage = 15;
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -121,6 +130,9 @@ export default function GamesPage() {
     (_, index) => index + 1,
   );
 
+  if (loading) {
+    return <Spinner />;
+  }
   return (
     <div className="min-h-screen space-y-14 px-4 md:px-8">
       <div className="mx-auto max-w-3xl text-center">

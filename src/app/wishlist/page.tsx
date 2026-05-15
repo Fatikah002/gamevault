@@ -3,6 +3,8 @@ import { useSyncExternalStore } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { games } from "@/data/games";
+import { useEffect, useState } from "react";
+import Spinner from "@/components/spinner";
 
 const WISHLIST_EVENT = "wishlist-change";
 
@@ -38,6 +40,16 @@ function subscribeWishlist(callback: () => void) {
 }
 
 export default function WishlistPage() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Call hooks unconditionally to preserve hook order
   const wishlist = useSyncExternalStore(
     subscribeWishlist,
     getWishlistSnapshot,
@@ -52,6 +64,10 @@ export default function WishlistPage() {
     localStorage.setItem("wishlist", JSON.stringify(updated));
     window.dispatchEvent(new Event(WISHLIST_EVENT));
   };
+
+   if (loading) {
+    return <Spinner />;
+  }
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-10">
