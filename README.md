@@ -55,3 +55,7 @@ src/
 ## Catatan trade-off/kendala
 - Saya sempat kesulitan membuat fitur wishlist yang dapat disimpan menggunakan localStorage.
 - Saya juga mengalami kesulitan dalam merapikan tampilan responsive agar tetap konsisten di berbagai ukuran layar.
+
+## Live Demo URL
+[https://gamevault-red-one.vercel.app/](https://gamevault-red-one.vercel.app/)
+
