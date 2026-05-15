@@ -16,7 +16,6 @@ npm run dev
 3. Buka http://localhost:3000 di browser.
 
 ## Tech stack dan alasan pemilihan
-## Tech stack dan alasan pemilihan
 
 - Next.js (App Router): saya memilih Next.js karena framework tersebut yang banyak digunakan di industri .
 - Tailwind CSS: saya memilih Tailwind CSS karena membantu membuat tampilan responsive dengan lebih cepat dan konsisten tanpa harus banyak menulis file CSS terpisah.
